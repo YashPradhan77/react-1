@@ -12,6 +12,8 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+   "homepage": "https://YashPradhan77.github.io/<react-1>",
+    "deploy": "gh-pages -d build",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
