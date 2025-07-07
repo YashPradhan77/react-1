@@ -30,7 +30,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 # Deploy to the S3 server
-    - name: Deploy to S3
+    - name: Deploy to S3 bucket
       uses: jakejarvis/s3-sync-action@master
       with:
           args: --acl public-read --delete
